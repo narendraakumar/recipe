@@ -1,0 +1,6 @@
+import enum
+
+class TaskType(enum):
+    function = "function"
+    condition = "condition"
+    aggregate = "aggregate"

@@ -1,0 +1,19 @@
+digraph {
+	A [label="this is node A"]
+	B [label="this is node B"]
+	B [label="this is node B"]
+	C [label="this is node C"]
+	D [label="this is node D"]
+	C [label="this is node C"]
+	D [label="this is node D"]
+	E [label="this is node E"]
+	F [label="this is node F"]
+	F [label="this is node F"]
+	C [label="this is node C"]
+	A -> B
+	B -> C
+	B -> D
+	C -> D
+	E -> F
+	F -> C
+}
