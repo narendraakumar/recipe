@@ -12,4 +12,5 @@ class FileFormat(ExtendedEnum):
     JSON = ".json"
     GAN_ZIP = ".zip"
 
+
 print(FileFormat.list)
